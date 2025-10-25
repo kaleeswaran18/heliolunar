@@ -1,0 +1,63 @@
+.stats-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.stats-heading {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.stat-card {
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.stat-label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.stat-desc {
+  color: #555;
+}
+
+/* Marquee animation */
+.logo-marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  width: 100%;
+}
+
+.logo-track {
+  display: flex;
+  gap: 60px; /* increase gap for spacing */
+  animation: scroll 25s linear infinite; /* slower, smoother */
+}
+
+.logo-track img {
+  height: 40px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

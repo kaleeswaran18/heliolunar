@@ -1,0 +1,35 @@
+.upcoming-activities {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap; /* allow wrap for responsive */
+}
+
+.activity-card {
+  flex: 1;
+  min-width: 300px;
+  border-radius: 16px;
+  padding: 20px;
+}
+
+/* Mobile - Show one card per row */
+@media (max-width: 768px) {
+  .upcoming-activities {
+    flex-wrap: nowrap; /* no wrap, horizontal scroll */
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .activity-card {
+    flex: 0 0 90%; /* almost full width on mobile */
+    scroll-snap-align: start;
+  }
+
+  /* Hide scrollbar */
+  .upcoming-activities::-webkit-scrollbar {
+    display: none;
+  }
+  .upcoming-activities {
+    scrollbar-width: none;
+  }
+}
