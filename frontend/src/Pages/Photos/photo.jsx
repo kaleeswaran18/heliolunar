@@ -100,51 +100,51 @@ const colleges = [
   {
     id: "sethu",
     name: "Sethu Institute of Technology",
-    image: "../asset/image/SIT.jpg",
+    image: "../assets/image/SIT.jpg",
     photos: [
-      "../asset/image/sethu1.jpg",
-      "../asset/image/sethu2.jpg",
-      "../asset/image/sethu3.jpg",
+      "../assets/image/sethu1.jpg",
+      "../assets/image/sethu2.jpg",
+      "../assets/image/sethu3.jpg",
     ],
   },
   {
     id: "kalasalingam",
     name: "Kalasalingam University",
-    image: "../asset/image/klc.jpg",
+    image: "../assets/image/klc.jpg",
     photos: [
-      "../asset/image/kalas1.jpg",
-      "../asset/image/kalas2.jpg",
+      "../assets/image/kalas1.jpg",
+      "../assets/image/kalas2.jpg",
     ],
   },
   {
     id: "muthayammal",
     name: "Muthayammal Polytechnic",
-    image: "../asset/image/muthayammal.jpg",
+    image: "../assets/image/muthayammal.jpg",
     photos: [
-      "../asset/image/muthayammal1.jpeg",
-      "../asset/image/muthayammal2.jpeg",
-      "../asset/image/muthayammal3.jpeg",
-      "../asset/image/muthayammal4.jpeg",
-      "../asset/image/muthayammal5.jpeg",
+      "../assets/image/muthayammal1.jpeg",
+      "../assets/image/muthayammal2.jpeg",
+      "../assets/image/muthayammal3.jpeg",
+      "../assets/image/muthayammal4.jpeg",
+      "../assets/image/muthayammal5.jpeg",
    
     ],
   },
   {
     id: "vellamal",
     name: "Vellamal Institute of Technology",
-    image: "../asset/image/vellamal.jpg",
+    image: "../assets/image/vellamal.jpg",
     photos: [
-      "../asset/image/vellamal1.jpg",
-      "../asset/image/vellamal2.jpg",
+      "../assets/image/vellamal1.jpg",
+      "../assets/image/vellamal2.jpg",
     ],
   },
   {
     id: "npr",
     name: "NPR Arts and Science",
-    image: "../asset/image/NPR.jpg",
+    image: "../assets/image/NPR.jpg",
     photos: [
-      "../asset/image/npr1.jpg",
-      "../asset/image/npr2.jpg",
+      "../assets/image/npr1.jpg",
+      "../assets/image/npr2.jpg",
     ],
   },
 ];
@@ -159,7 +159,7 @@ const colleges = [
       <header
         className="hero-section text-white text-center py-5"
         style={{
-          backgroundImage: `url('../asset/image/backgroundimg.jpg')`,
+          backgroundImage: `url('../assets/image/backgroundimg.jpg')`,
           width: "100%",
           height: "350px",
           backgroundSize: "cover",
@@ -184,7 +184,7 @@ const colleges = [
              <Bar 
   logoText={
     <img 
-      src="../../asset/image/final3.png"  // put your logo image path here
+      src="../../assets/image/final3.png"  // put your logo image path here
       alt="heliolunor Logo" 
       style={{ height: "100px", objectFit: "contain" }} 
     />

@@ -35,14 +35,14 @@ const stats = [
 ];
 
 const logos = [
-  "../asset/image/cloudflare.png",
-  "../asset/image/grok.png",
-  "../asset/image/instagram.png",
-  "../asset/image/openai.png",
-  "../asset/image/tiktok.png",
-  "../asset/image/google.png",
-  "../asset/image/stripe.png",
-  "../asset/image/amazon-aws.png"
+  "../assets/image/cloudflare.png",
+  "../assets/image/grok.png",
+  "../assets/image/instagram.png",
+  "../assets/image/openai.png",
+  "../assets/image/tiktok.png",
+  "../assets/image/google.png",
+  "../assets/image/stripe.png",
+  "../assets/image/amazon-aws.png"
 ];
 
 const StatCard = ({ item }) => {

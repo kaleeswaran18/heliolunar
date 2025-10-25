@@ -6,12 +6,12 @@ import { useNavigate } from "react-router-dom";
 import "./courses.css";
 
 const courses = [
-  { title: "Fullstack", img: "../asset/image/fullstack.jpg" },
-  { title: "Frontend Development", img: "../asset/image/frontend.jpg" },
-  { title: "Backend Development", img: "../asset/image/backend.jpg" },
-  { title: "Database", img: "../asset/image/database.jpg" },
-  { title: "Mobile Development", img: "../asset/image/frontend.jpg" },
-  { title: "UI/UX Design", img: "../asset/image/fullstack.jpg" },
+  { title: "Fullstack", img: "../assets/image/fullstack.jpg" },
+  { title: "Frontend Development", img: "../assets/image/frontend.jpg" },
+  { title: "Backend Development", img: "../assets/image/backend.jpg" },
+  { title: "Database", img: "../assets/image/database.jpg" },
+  { title: "Mobile Development", img: "../assets/image/frontend.jpg" },
+  { title: "UI/UX Design", img: "../assets/image/fullstack.jpg" },
 ];
 
 const Courses = () => {

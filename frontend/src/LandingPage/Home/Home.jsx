@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react"
 import Navbar from "./Navbar"
 import "./home.css"
-import HomeImage from "./assets/alterbanner.png"
+import HomeImage from "./assetss/alterbanner.png"
 import { Swiper, SwiperSlide, } from "swiper/react";
 import { Pagination, Autoplay, EffectFade } from "swiper/modules";
 import "swiper/css";
@@ -122,7 +122,7 @@ const Home = () => {
               <div style={{ position: "relative", height: "67rem", overflow: "hidden" }}>
                 <div style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: 0, zIndex: 1, overflow: "hidden" }}>
                   <video
-                    src={'../asset/image/110.mp4'}
+                    src={'../assets/image/110.mp4'}
                     autoPlay
                     muted
                     loop

@@ -11,21 +11,21 @@ const sections = [
     title: "Web Application",
     description:
       "Our team of adept engineers merge creativity, proficiency, and state-of-the-art tools to metamorphose your concepts into market-ready products. We cover the entire product lifecycle, including research, UX/UI design, prototyping, development, rigorous testing, and post-launch support—ensuring your solution is innovative, scalable, and built for long-term success.",
-    image: "../asset/image/91.png",
+    image: "../assets/image/91.png",
   },
   {
     label: "SERVICE",
     title: "AI & Machine Learning",
     description:
       "We leverage cutting-edge AI and Machine Learning to fortify C-suite decisions, uncover hidden opportunities, and automate complex processes. Our expertise spans predictive analytics, computer vision, natural language processing, and intelligent recommendation systems—enabling businesses to transform data into actionable insights and gain a competitive edge.",
-    image: "../asset/image/92.png",
+    image: "../assets/image/92.png",
   },
   {
     label: "SERVICE",
     title: "Cloud Services",
     description:
       "We specialize in integrating cloud strategies with business goals for organizations embracing digital transformation. From cloud migration and architecture design to cost optimization, security hardening, and ongoing management, our solutions empower businesses with agility, scalability, and resilience—ensuring your operations run seamlessly in a secure, future-ready environment.",
-    image: "../asset/image/93.png",
+    image: "../assets/image/93.png",
   },
   
 ];

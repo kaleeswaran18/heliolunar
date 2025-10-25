@@ -28,21 +28,21 @@ const Index = () => {
     const navigate = useNavigate()
 
     const images = [
-        { img: "../asset/image/sparkels/1.jpeg" },
-        { img: "../asset/image/sparkels/2.jpeg" },
-        { img: "../asset/image/sparkels/3.jpeg" },
-        { img: "../asset/image/sparkels/4.jpeg" },
-        { img: "../asset/image/sparkels/5.jpeg" },
-        { img: "../asset/image/sparkels/6.jpeg" },
-        { img: "../asset/image/sparkels/7.jpeg" },
-        { img: "../asset/image/sparkels/8.jpeg" },
-        { img: "../asset/image/sparkels/9.jpeg" },
-        { img: "../asset/image/sparkels/10.jpeg" },
-        { img: "../asset/image/sparkels/11.jpeg" },
-        { img: "../asset/image/sparkels/12.jpeg" },
-        { img: "../asset/image/sparkels/13.jpeg" },
-        { img: "../asset/image/sparkels/14.jpeg" },
-        { img: "../asset/image/sparkels/15.jpeg" }
+        { img: "../assets/image/sparkels/1.jpeg" },
+        { img: "../assets/image/sparkels/2.jpeg" },
+        { img: "../assets/image/sparkels/3.jpeg" },
+        { img: "../assets/image/sparkels/4.jpeg" },
+        { img: "../assets/image/sparkels/5.jpeg" },
+        { img: "../assets/image/sparkels/6.jpeg" },
+        { img: "../assets/image/sparkels/7.jpeg" },
+        { img: "../assets/image/sparkels/8.jpeg" },
+        { img: "../assets/image/sparkels/9.jpeg" },
+        { img: "../assets/image/sparkels/10.jpeg" },
+        { img: "../assets/image/sparkels/11.jpeg" },
+        { img: "../assets/image/sparkels/12.jpeg" },
+        { img: "../assets/image/sparkels/13.jpeg" },
+        { img: "../assets/image/sparkels/14.jpeg" },
+        { img: "../assets/image/sparkels/15.jpeg" }
     ]
 
     const totalImagesNeeded = 34 * 3;

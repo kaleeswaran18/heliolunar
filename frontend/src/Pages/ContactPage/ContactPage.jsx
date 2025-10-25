@@ -107,7 +107,7 @@ function ContactPage() {
       <header
         className="hero-section text-white text-center py-5"
         style={{
-          backgroundImage: `url('../asset/image/backgroundimg.jpg')`,
+          backgroundImage: `url('../assets/image/backgroundimg.jpg')`,
           width: "100%",
           height: "350px",
           backgroundSize: "cover",
@@ -132,7 +132,7 @@ function ContactPage() {
              <Bar 
   logoText={
     <img 
-      src="../../asset/image/final3.png"  // put your logo image path here
+      src="../../assets/image/final3.png"  // put your logo image path here
       alt="heliolunor Logo" 
       style={{ height: "100px", objectFit: "contain" }} 
     />
@@ -198,7 +198,7 @@ function ContactPage() {
           <div className="row g-0 shadow rounded-4 overflow-hidden d-flex align-items-stretch">
             <div className="col-md-6 p-0">
               <img
-                src="../asset/image/Maskgroup.png"
+                src="../assets/image/Maskgroup.png"
                 alt="Team Working"
                 className="img-fluid w-100 h-100 object-fit-cover"
                 style={{

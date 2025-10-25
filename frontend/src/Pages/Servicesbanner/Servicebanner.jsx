@@ -14,62 +14,62 @@ const sections = [
     title: "AI & Machine Learning",
     description:
       "Innovatively leverages cutting-edge AI & Machine Learning to fortify C-suite decisions and automate insights.",
-    image: "../asset/image/AI01.jpg",
+    image: "../assets/image/AI01.jpg",
   },
   {
     label: "SERVICE",
     title: "Cloud Services",
     description:
       "We specialize in integrating cloud strategies with business goals for organizations embracing digital transformation.",
-    image: "../asset/image/CL03.jpeg",
+    image: "../assets/image/CL03.jpeg",
   },
   {
     title: "Web Application",
     description:
       "Design and develop scalable, high-performance web solutions tailored to streamline operations, boost client engagement, and grow your business.",
-    image: "../asset/image/webdesign.jpg",
+    image: "../assets/image/webdesign.jpg",
     overlayText: "Add feedback",
   },
   {
     title: "Mobile Application",
     description:
       "Build intuitive mobile apps that enhance customer experience, improve brand visibility, and drive business growth across platforms.",
-    image: "../asset/image/mbb01.jpg",
+    image: "../assets/image/mbb01.jpg",
     overlayText: "Reporting",
   },
   {
     title: "Testing",
     description:
       "Ensure flawless performance through rigorous functional, security, and usability testing — safeguarding your brand and customer trust.",
-    image: "../asset/image/testing.jpg",
+    image: "../assets/image/testing.jpg",
     overlayText: "Reporting",
   },
   {
     title: "AI",
     description:
       "Integrate AI-driven solutions to automate workflows, optimize decision-making, and gain a competitive edge in your industry.",
-    image: "../asset/image/ai.jpg",
+    image: "../assets/image/ai.jpg",
     overlayText: "Reporting",
   },
   {
     title: "Cybersecurity",
     description:
-      "Protect your digital assets with advanced security measures, threat monitoring, and compliance solutions for business continuity.",
-    image: "../asset/image/cyber.jpg",
+      "Protect your digital assetss with advanced security measures, threat monitoring, and compliance solutions for business continuity.",
+    image: "../assets/image/cyber.jpg",
     overlayText: "Reporting",
   },
   {
     title: "IOT",
     description:
       "Leverage IoT technologies to connect devices, collect actionable data, and drive smarter, data-backed business strategies.",
-    image: "../asset/image/IOT1.jpg",
+    image: "../assets/image/IOT1.jpg",
     overlayText: "Tagged updates",
   },
   {
     title: "SEO",
     description:
       "Boost your online visibility with SEO strategies that attract quality leads, strengthen brand authority, and increase conversions.",
-    image: "../asset/image/seo.jpg",
+    image: "../assets/image/seo.jpg",
     overlayText: "Created",
   },
 ];
@@ -145,7 +145,7 @@ const Servicebanner = () => {
           <Bar 
   logoText={
     <img 
-      src="../../asset/image/final3.png"  // put your logo image path here
+      src="../../assets/image/final3.png"  // put your logo image path here
       alt="heliolunor Logo" 
       style={{ height: "100px", objectFit: "contain" }} 
     />
@@ -180,7 +180,7 @@ const Servicebanner = () => {
     {/* Full width image */}
     <Col md={12} className="mt-4">
       <img
-        src="../asset/image/Screenshot 2025-08-24 162346.png"
+        src="../assets/image/Screenshot 2025-08-24 162346.png"
         alt="Service"
         className="heroImage"
       />

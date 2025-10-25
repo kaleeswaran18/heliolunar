@@ -8,8 +8,8 @@ import {
   FaChevronLeft, FaChevronRight, FaAward, FaQuestionCircle, FaHeadset
 } from "react-icons/fa";
 import { SiTensorflow, SiArduino } from "react-icons/si";
-import mainImage from "../../assets/Mask group.png"; // replace with your main image
-import sideImage from "../../assets/young-indian-man-with-laptop-gray-wall 1.png"; // replace with your side image
+import mainImage from "../../assetss/Mask group.png"; // replace with your main image
+import sideImage from "../../assetss/young-indian-man-with-laptop-gray-wall 1.png"; // replace with your side image
 import Navbar from "../../LandingPage/Home/Navbar";
 import '../../LandingPage/Home/home.css'
 import Framer from '../framer';
@@ -116,7 +116,7 @@ const ProfileCard = () => {
 </Col>
                 <Col md={6} className="text-center mt-4 mt-md-0">
                   <img
-                    src="../asset/image/cd6.png"
+                    src="../assets/image/cd6.png"
                     alt="Student"
                     className='heroImage'
                   />

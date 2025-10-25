@@ -1,6 +1,6 @@
 import "./About_all.css";
-import mainImage from "../../assets/Mask group.png";
-import sideImage from "../../assets/young-indian-man-with-laptop-gray-wall 1.png";
+import mainImage from "../../assetss/Mask group.png";
+import sideImage from "../../assetss/young-indian-man-with-laptop-gray-wall 1.png";
 import { FaAward, FaQuestionCircle, FaHeadset } from "react-icons/fa";
 import StatsSection from '../../LandingPage/StatsSection/StatsSection';
 import Framer from "../framer";
@@ -65,7 +65,7 @@ const Aboutall = () => {
           <Container>
             <Row className="align-items-center text-center text-md-start">
               <Col md={4} className="mb-4 mb-md-0">
-                <img src="../asset/image/about1.png" alt="Student" className="heroImage" />
+                <img src="../assets/image/about1.png" alt="Student" className="heroImage" />
               </Col>
               <Col md={4}>
                 <p className="subtitle">About heliolunor</p>
@@ -80,7 +80,7 @@ const Aboutall = () => {
                 </div>
               </Col>
               <Col md={4}>
-                <img src="../asset/image/about3.png" alt="Student" className="heroImage1" />
+                <img src="../assets/image/about3.png" alt="Student" className="heroImage1" />
               </Col>
             </Row>
           </Container>

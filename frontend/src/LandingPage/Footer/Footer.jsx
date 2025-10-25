@@ -70,7 +70,7 @@ const Footer = () => {
         <div className="footer-container">
           <div className="footer-column company-info">
             <div className="footerlogo">
-              <span className="footerlogo-icon"><img src={'https://www.heliolunor.in/asset/image/final3.png'} width={"32px"} height={"32px"} /></span>
+              <span className="footerlogo-icon"><img src={'https://www.heliolunor.in/assets/image/final3.png'} width={"32px"} height={"32px"} /></span>
               <span className="footerlogo-text">heliolunor</span>
             </div>
             <p><strong>Email</strong><br />kaleeswaran.b@heliolunor.in</p>

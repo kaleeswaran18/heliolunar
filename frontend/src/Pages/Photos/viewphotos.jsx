@@ -100,7 +100,7 @@ function ContactPage() {
           <Bar 
             logoText={
               <img 
-                 src="../../asset/image/final3.png"
+                 src="../../assets/image/final3.png"
                 alt="BetterLogo" 
                 style={{ height: "100px", objectFit: "contain" }} 
               />

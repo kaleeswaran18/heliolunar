@@ -57,7 +57,7 @@ const Bar = ({ from = null, logoText = "heliolunor", menuRef, isMobile, menuOpen
             >
                 {/* {logoText} */}
                 <img
-                    src="../../asset/image/final3.png"
+                    src="../../assets/image/final3.png"
                     alt="heliolunor Logo"
                     style={{
                         height: from == null ? "100px" : "50px",

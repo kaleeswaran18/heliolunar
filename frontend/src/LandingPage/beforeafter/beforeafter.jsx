@@ -73,13 +73,13 @@ const Beforeafter = () => {
       </p>
 
       <div className="comparison-container">
-        <img src="../asset/image/beforehi.jpeg" alt="Before" className="before-image" />
+        <img src="../assets/image/beforehi.jpeg" alt="Before" className="before-image" />
 
         <div
           className="after-image-wrapper"
           style={{ clipPath: `inset(0 0 0 ${sliderPos}%)` }}
         >
-          <img src="../asset/image/beforehi.png" alt="After" className="after-image" />
+          <img src="../assets/image/beforehi.png" alt="After" className="after-image" />
         </div>
 
         <div
