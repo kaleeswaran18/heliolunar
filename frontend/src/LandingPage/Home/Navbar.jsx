@@ -29,7 +29,7 @@ export default function Navbar({ isMobile, showNavbar }) {
     <nav className="navbar">
       <Bar
       from="navbar"
-        logoText="BetterThis"
+        logoText="heliolunor"
         isMobile={isMobile}
         menuRef={menuRef}
         menuOpen={navmenuOpen}

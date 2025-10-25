@@ -137,7 +137,7 @@ const Home = () => {
                 </div>
 
                 <div className="header" style={{ position: "absolute", top: "30px", left: 0, right: 0, zIndex: 10 }}>
-                  <Bar logoText="BetterThis" menuRef={menuRef} isMobile={isMobile} menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+                  <Bar logoText="heliolunor" menuRef={menuRef} isMobile={isMobile} menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
                 </div>
 
                 <div style={{ position: "relative", zIndex: 2 }}>

@@ -70,10 +70,10 @@ const Footer = () => {
         <div className="footer-container">
           <div className="footer-column company-info">
             <div className="footerlogo">
-              <span className="footerlogo-icon"><img src={'https://www.betterthis.in/asset/image/final3.png'} width={"32px"} height={"32px"} /></span>
-              <span className="footerlogo-text">BetterThis</span>
+              <span className="footerlogo-icon"><img src={'https://www.heliolunor.in/asset/image/final3.png'} width={"32px"} height={"32px"} /></span>
+              <span className="footerlogo-text">heliolunor</span>
             </div>
-            <p><strong>Email</strong><br />kaleeswaran.b@betterthis.in</p>
+            <p><strong>Email</strong><br />kaleeswaran.b@heliolunor.in</p>
             <p><strong>Phone Number</strong><br />+91 6380319582</p>
             <p><strong>Address</strong><br />18,sentamil 11th street parasakthinagar avanipuram<br />Madurai-625012</p>
           </div>
@@ -83,7 +83,7 @@ const Footer = () => {
             <ul>
               <li onClick={handleHome}>Home</li>
               {/* <li>Services</li> */}
-              <li onClick={handleAbout}>Inside BetterThis</li>
+              <li onClick={handleAbout}>Inside heliolunor</li>
               <li onClick={handleNavigateCourse}>Courses</li>
               <li onClick={handleNavigateContact}>Contact Us</li>
             </ul>
@@ -118,7 +118,7 @@ const Footer = () => {
       <div className="footer-end-bottom">
         <div className="footer-bottom">
 
-          <p>© Copyright {new Date().getFullYear()} BetterThis Technology Solutions </p>
+          <p>© Copyright {new Date().getFullYear()} heliolunor Technology Solutions </p>
           <div className="footer-info justify-content-end">
 
             <div className="footer-links">
@@ -128,7 +128,7 @@ const Footer = () => {
             </div>
             <div className="contact-info">
               <span><FaPhoneAlt /> +91 6380319582</span>
-              <span><FaEnvelope /> <a href="mailto:kaleeswaran.b@betterthis.in">kaleeswaran.b@betterthis.in</a></span>
+              <span><FaEnvelope /> <a href="mailto:kaleeswaran.b@heliolunor.in">kaleeswaran.b@heliolunor.in</a></span>
             </div>
 
           </div>

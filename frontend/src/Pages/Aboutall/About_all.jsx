@@ -58,7 +58,7 @@ const Aboutall = () => {
 
       <div className="about-section">
         <div ref={heroRef} className="header" style={{ position: "absolute", top: "30px", left: 0, right: 0, zIndex: 10 }}>
-          <Bar logoText="BetterThis" menuRef={menuRef} isMobile={isMobile} menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+          <Bar logoText="heliolunor" menuRef={menuRef} isMobile={isMobile} menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         </div>
 
         <section className="about-hero py-5">
@@ -68,9 +68,9 @@ const Aboutall = () => {
                 <img src="../asset/image/about1.png" alt="Student" className="heroImage" />
               </Col>
               <Col md={4}>
-                <p className="subtitle">About BetterThis</p>
+                <p className="subtitle">About heliolunor</p>
                 <h1 className="title">
-                  <span className="blue">BetterThis IT & Training</span><br />
+                  <span className="blue">heliolunor IT & Training</span><br />
                   Empowering Technology & Learning Together
                 </h1>
                 <div className="features mt-3">
