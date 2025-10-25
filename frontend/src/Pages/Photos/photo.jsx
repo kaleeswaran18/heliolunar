@@ -185,7 +185,7 @@ const colleges = [
   logoText={
     <img 
       src="../../assets/image/final3.png"  // put your logo image path here
-      alt="heliolunor Logo" 
+      alt="heliolunar Logo" 
       style={{ height: "100px", objectFit: "contain" }} 
     />
   } 

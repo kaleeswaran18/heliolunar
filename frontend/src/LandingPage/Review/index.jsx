@@ -62,7 +62,7 @@ const Index = () => {
                 <div className="rut">
                     <h2 className="animate-fade-slide">Smart. Motivated</h2>
                     <h2 className="Inventive animate-fade-slide">Inventive</h2>
-                    <h3 className='career animate-fade-slide'>Build A Career With heliolunor</h3>
+                    <h3 className='career animate-fade-slide'>Build A Career With heliolunar</h3>
                 </div>
 
                 <div>
@@ -72,8 +72,8 @@ const Index = () => {
                 <div className="rutConnect">
                     <h2>Connect With Us</h2>
                     <h2 className="Inventive">+91 6380319582</h2>
-                    <h5>kaleeswaran.b@heliolunor.in</h5>
-                    <h5>infoheliolunor@gmail.com</h5>
+                    <h5>kaleeswaran.b@heliolunar.in</h5>
+                    <h5>infoheliolunar@gmail.com</h5>
                     
                 </div>
             </div>
@@ -110,7 +110,7 @@ const Index = () => {
                 <div className="divider"></div>
             </div>
 
-            <h1 className="reason">  We Are heliolunor For A Reason</h1>
+            <h1 className="reason">  We Are heliolunar For A Reason</h1>
 
 
         </section>

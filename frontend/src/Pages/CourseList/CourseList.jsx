@@ -8,8 +8,8 @@ import {
   FaChevronLeft, FaChevronRight, FaAward, FaQuestionCircle, FaHeadset
 } from "react-icons/fa";
 import { SiTensorflow, SiArduino } from "react-icons/si";
-import mainImage from "../../assetss/Mask group.png"; // replace with your main image
-import sideImage from "../../assetss/young-indian-man-with-laptop-gray-wall 1.png"; // replace with your side image
+import mainImage from "../../assets/Mask group.png"; // replace with your main image
+import sideImage from "../../assets/young-indian-man-with-laptop-gray-wall 1.png"; // replace with your side image
 import Navbar from "../../LandingPage/Home/Navbar";
 import '../../LandingPage/Home/home.css'
 import Framer from '../framer';
@@ -94,7 +94,7 @@ const ProfileCard = () => {
       <div className="about-section">
 
         <div ref={heroRef} className="header" style={{ position: "absolute", top: "30px", left: 0, right: 0, zIndex: 10 }}>
-          <Bar logoText="heliolunor" menuRef={menuRef} isMobile={isMobile} menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+          <Bar logoText="heliolunar" menuRef={menuRef} isMobile={isMobile} menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         </div>
 
         {/* Top Banner */}

@@ -4,7 +4,7 @@ import { useState, useRef } from "react"
 import { FaPlus, FaMinus, FaCheckCircle, FaStar, FaCog } from "react-icons/fa"
 import { useNavigate } from "react-router-dom"
 
-const Bar = ({ from = null, logoText = "heliolunor", menuRef, isMobile, menuOpen, setMenuOpen }) => {
+const Bar = ({ from = null, logoText = "heliolunar", menuRef, isMobile, menuOpen, setMenuOpen }) => {
 
     const navigate = useNavigate()
     const [servicesOpen, setServicesOpen] = useState(false)
@@ -58,7 +58,7 @@ const Bar = ({ from = null, logoText = "heliolunor", menuRef, isMobile, menuOpen
                 {/* {logoText} */}
                 <img
                     src="../../assets/image/final3.png"
-                    alt="heliolunor Logo"
+                    alt="heliolunar Logo"
                     style={{
                         height: from == null ? "100px" : "50px",
                         objectFit: "contain"
@@ -89,7 +89,7 @@ const Bar = ({ from = null, logoText = "heliolunor", menuRef, isMobile, menuOpen
                         <Offcanvas.Body>
                             <ul className="mobile-menu-list">
                                 <li className={isActive("/") ? "active" : ""} onClick={() => navigateAndScrollTop("/")}>Home</li>
-                                <li className={isActive("/about") ? "active" : ""} onClick={() => navigateAndScrollTop("/about")}  >Inside heliolunor</li>
+                                <li className={isActive("/about") ? "active" : ""} onClick={() => navigateAndScrollTop("/about")}  >Inside heliolunar</li>
                                 <li className={isActive("/photos") ? "active" : ""} onClick={() => navigateAndScrollTop("/photos")}  >visitedcollage</li>
                                 
                                 <li className={isActive("/courselist") ? "active" : ""} onClick={() => navigateAndScrollTop("/courselist")}>Courses</li>
@@ -124,8 +124,8 @@ const Bar = ({ from = null, logoText = "heliolunor", menuRef, isMobile, menuOpen
                 <ul className="nav-links">
                     <li className={isActive("/") ? "active" : ""} onClick={() => navigateAndScrollTop("/")}>Home</li>
                     <li
-                        // className="inside-heliolunor"
-                        className={isActive("/about") ? "active" : ""} onClick={() => navigateAndScrollTop("/about")}>Inside heliolunor</li>
+                        // className="inside-heliolunar"
+                        className={isActive("/about") ? "active" : ""} onClick={() => navigateAndScrollTop("/about")}>Inside heliolunar</li>
                         <li className={isActive("/photos") ? "active" : ""} onClick={() => navigateAndScrollTop("/photos")}  >visitedcollage</li>
                     <li className={isActive("/courselist") ? "active" : ""} onClick={() => navigateAndScrollTop("/courselist")}>Courses</li>
                     <li className={isActive("/contact") ? "active" : ""} onClick={() => navigateAndScrollTop("/contact")} >Contact Us</li>

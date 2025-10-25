@@ -133,7 +133,7 @@ function ContactPage() {
   logoText={
     <img 
       src="../../assets/image/final3.png"  // put your logo image path here
-      alt="heliolunor Logo" 
+      alt="heliolunar Logo" 
       style={{ height: "100px", objectFit: "contain" }} 
     />
   } 
@@ -171,8 +171,8 @@ function ContactPage() {
                 </div>
                 <div>
                   <h6 className="fw-bold mb-1">Our Email Address</h6>
-                  <p className="mb-0">kaleeswaran.b@heliolunor.in</p>
-                  <p className="mb-0">infoheliolunor@gmail.com</p>
+                  <p className="mb-0">kaleeswaran.b@heliolunar.in</p>
+                  <p className="mb-0">infoheliolunar@gmail.com</p>
                   </div>
               </div>
             </div>

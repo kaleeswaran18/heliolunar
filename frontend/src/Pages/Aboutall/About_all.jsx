@@ -1,6 +1,6 @@
 import "./About_all.css";
-import mainImage from "../../assetss/Mask group.png";
-import sideImage from "../../assetss/young-indian-man-with-laptop-gray-wall 1.png";
+import mainImage from "../../assets/Mask group.png";
+import sideImage from "../../assets/young-indian-man-with-laptop-gray-wall 1.png";
 import { FaAward, FaQuestionCircle, FaHeadset } from "react-icons/fa";
 import StatsSection from '../../LandingPage/StatsSection/StatsSection';
 import Framer from "../framer";
@@ -58,7 +58,7 @@ const Aboutall = () => {
 
       <div className="about-section">
         <div ref={heroRef} className="header" style={{ position: "absolute", top: "30px", left: 0, right: 0, zIndex: 10 }}>
-          <Bar logoText="heliolunor" menuRef={menuRef} isMobile={isMobile} menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+          <Bar logoText="heliolunar" menuRef={menuRef} isMobile={isMobile} menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         </div>
 
         <section className="about-hero py-5">
@@ -68,9 +68,9 @@ const Aboutall = () => {
                 <img src="../assets/image/about1.png" alt="Student" className="heroImage" />
               </Col>
               <Col md={4}>
-                <p className="subtitle">About heliolunor</p>
+                <p className="subtitle">About heliolunar</p>
                 <h1 className="title">
-                  <span className="blue">heliolunor IT & Training</span><br />
+                  <span className="blue">heliolunar IT & Training</span><br />
                   Empowering Technology & Learning Together
                 </h1>
                 <div className="features mt-3">

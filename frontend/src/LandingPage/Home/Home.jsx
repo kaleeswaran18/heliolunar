@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react"
 import Navbar from "./Navbar"
 import "./home.css"
-import HomeImage from "./assetss/alterbanner.png"
+import HomeImage from "./assets/alterbanner.png"
 import { Swiper, SwiperSlide, } from "swiper/react";
 import { Pagination, Autoplay, EffectFade } from "swiper/modules";
 import "swiper/css";
@@ -137,7 +137,7 @@ const Home = () => {
                 </div>
 
                 <div className="header" style={{ position: "absolute", top: "30px", left: 0, right: 0, zIndex: 10 }}>
-                  <Bar logoText="heliolunor" menuRef={menuRef} isMobile={isMobile} menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+                  <Bar logoText="heliolunar" menuRef={menuRef} isMobile={isMobile} menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
                 </div>
 
                 <div style={{ position: "relative", zIndex: 2 }}>
